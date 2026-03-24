@@ -28,7 +28,7 @@ export function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="relative z-10 max-w-4xl mx-auto px-6 text-center"
+        className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center"
       >
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -44,7 +44,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-balance text-white"
+          className="text-4xl sm:text-5xl md:text-7xl font-bold mb-5 sm:mb-6 leading-[1.1] text-balance text-white"
         >
           We Build Trusted Digital Products That Help Your Business Grow.
         </motion.h1>
@@ -53,7 +53,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.6 }}
-          className="text-lg text-zinc-400 mb-8 max-w-2xl mx-auto text-balance"
+          className="text-base sm:text-lg text-zinc-400 mb-8 max-w-2xl mx-auto text-balance"
         >
           From school websites to AI-powered SaaS platforms, we deliver clean design, fast performance, and reliable support so your business looks professional and wins client trust.
         </motion.p>
@@ -86,7 +86,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.6 }}
-          className="text-sm text-zinc-500 mb-12"
+          className="text-sm text-zinc-500 mb-12 leading-relaxed"
         >
           ✓ Based in Takoradi  ✓ 8+ Projects Delivered  ✓ Clear Communication  ✓ On-Time Delivery
         </motion.p>
