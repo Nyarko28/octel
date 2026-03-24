@@ -8,8 +8,8 @@ const plans = [
   {
     name: 'Starter',
     description: 'Perfect for small projects and MVPs',
-    price: 'GHS 800 - 1,500',
-    period: 'project',
+    price: 'Book a Consultation',
+    period: '',
     features: [
       'Up to 5 pages',
       'Responsive design',
@@ -21,8 +21,8 @@ const plans = [
   {
     name: 'Professional',
     description: 'Best for growing businesses',
-    price: 'GHS 1,500 - 3,500',
-    period: 'project',
+    price: 'Book a Consultation',
+    period: '',
     featured: true,
     features: [
       'Up to 15 pages',
@@ -38,7 +38,7 @@ const plans = [
     name: 'Enterprise',
     description: 'Custom solutions for large organizations',
     price: 'Custom Quote',
-    period: 'quote',
+    period: '',
     features: [
       'Unlimited pages',
       'Custom features & integrations',
@@ -62,12 +62,8 @@ export function Pricing() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance">
-            Simple, Transparent Pricing
-          </h2>
-          <p className="text-lg text-foreground/60 max-w-2xl mx-auto text-balance">
-            Choose the perfect plan for your project. Scale as you grow.
-          </p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance">Project Plans</h2>
+          <p className="text-lg text-foreground/60 max-w-2xl mx-auto text-balance">Choose the best plan for your goals. We will tailor the scope to your needs.</p>
         </motion.div>
 
         <motion.div
@@ -77,9 +73,7 @@ export function Pricing() {
           viewport={{ once: true }}
           className="text-center mb-12 p-4 rounded-lg bg-primary/5 border border-primary/20"
         >
-          <p className="text-sm text-foreground/70">
-            💳 Pay in 2 installments — 50% upfront, 50% on delivery. Mobile Money accepted.
-          </p>
+          <p className="text-sm text-foreground/70">We define scope and timeline first, then provide a tailored proposal.</p>
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -108,7 +102,7 @@ export function Pricing() {
 
                 <div className="mb-6">
                   <span className="text-4xl font-bold">{plan.price}</span>
-                  <span className="text-foreground/60 ml-2">/{plan.period}</span>
+                  {plan.period ? <span className="text-foreground/60 ml-2">/{plan.period}</span> : null}
                 </div>
 
                 <Button

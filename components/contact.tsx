@@ -33,10 +33,10 @@ export function Contact() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance">
-            Ready to Get Started?
+            Let&apos;s Build Something Great
           </h2>
           <p className="text-lg text-foreground/60 max-w-2xl mx-auto text-balance">
-            Let&apos;s discuss your project and how we can help bring your vision to life.
+            Share your idea and we will reply with the best approach, timeline, and next steps.
           </p>
         </motion.div>
 
@@ -144,7 +144,7 @@ export function Contact() {
             </div>
 
             <Button type="submit" className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
-              Send Message
+              Send Project Brief
             </Button>
           </form>
         </motion.div>

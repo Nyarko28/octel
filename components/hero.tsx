@@ -46,7 +46,7 @@ export function Hero() {
           transition={{ delay: 0.2, duration: 0.6 }}
           className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-balance text-white"
         >
-          We Build Digital Products That Grow Your Business.
+          We Build Trusted Digital Products That Help Your Business Grow.
         </motion.h1>
 
         <motion.p
@@ -55,7 +55,7 @@ export function Hero() {
           transition={{ delay: 0.3, duration: 0.6 }}
           className="text-lg text-zinc-400 mb-8 max-w-2xl mx-auto text-balance"
         >
-          From school websites to AI-powered SaaS platforms — we design and build software that helps African businesses stand out, attract customers, and make more money.
+          From school websites to AI-powered SaaS platforms, we deliver clean design, fast performance, and reliable support so your business looks professional and wins client trust.
         </motion.p>
 
         <motion.div
@@ -69,7 +69,7 @@ export function Hero() {
             className="bg-indigo-600 text-white hover:bg-indigo-700 group cursor-pointer"
             onClick={() => scrollToSection('contact')}
           >
-            Get Started
+            Start Your Project
             <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
           </Button>
           <Button
@@ -77,7 +77,7 @@ export function Hero() {
             className="border border-white text-white hover:bg-white/10 bg-transparent cursor-pointer"
             onClick={() => scrollToSection('work')}
           >
-            View Our Work
+            See Real Projects
           </Button>
         </motion.div>
 
@@ -88,7 +88,7 @@ export function Hero() {
           transition={{ delay: 0.5, duration: 0.6 }}
           className="text-sm text-zinc-500 mb-12"
         >
-          ✓ Based in Takoradi  ✓ 8+ Projects Delivered  ✓ Fast Turnaround  ✓ Affordable Pricing
+          ✓ Based in Takoradi  ✓ 8+ Projects Delivered  ✓ Clear Communication  ✓ On-Time Delivery
         </motion.p>
 
         <Marquee />

@@ -1,38 +1,37 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Code2, Palette, Smartphone, Zap, TrendingUp, Shield } from 'lucide-react';
 
 const services = [
   {
     emoji: '🏫',
     title: 'School Websites',
-    description: 'Professional websites for nurseries, primary, JHS and SHS schools. From GHS 1,500',
+    description: 'Professional websites for nurseries, primary, JHS and SHS schools.',
   },
   {
     emoji: '💼',
     title: 'Business Websites',
-    description: 'Clean, fast websites for shops and companies. From GHS 800',
+    description: 'Clean, fast websites for shops and companies.',
   },
   {
     emoji: '📅',
     title: 'Booking Systems',
-    description: 'Let customers book appointments online. From GHS 2,000',
+    description: 'Let customers book appointments online.',
   },
   {
     emoji: '⚡',
     title: 'SaaS Products',
-    description: 'Full software platforms with auth and payments. From GHS 5,000',
+    description: 'Full software platforms with auth and payments.',
   },
   {
     emoji: '📱',
     title: 'Mobile Apps',
-    description: 'iOS and Android apps with React Native. From GHS 8,000',
+    description: 'iOS and Android apps with React Native.',
   },
   {
     emoji: '🤖',
     title: 'AI-Powered Systems',
-    description: 'Contract, procurement, and academic management systems with AI. Custom quote',
+    description: 'Contract, procurement, and academic management systems with AI.',
   },
 ];
 
@@ -51,7 +50,7 @@ export function Services() {
             Our Services
           </h2>
           <p className="text-lg text-foreground/60 max-w-2xl mx-auto text-balance">
-            Comprehensive digital solutions tailored to your unique needs and objectives.
+            Practical digital solutions designed to improve your brand credibility, customer experience, and business operations.
           </p>
         </motion.div>
 

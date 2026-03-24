@@ -84,7 +84,7 @@ export function Work() {
             Featured Work
           </h2>
           <p className="text-lg text-foreground/60 max-w-2xl mx-auto text-balance">
-            Explore some of our recent projects that showcase our expertise and innovation.
+            Explore recent client projects that demonstrate our quality, reliability, and attention to detail.
           </p>
         </motion.div>
 
@@ -116,7 +116,7 @@ export function Work() {
                 </div>
                 <a href={project.link} target="_blank" rel="noopener noreferrer">
                   <Button className="bg-primary text-primary-foreground hover:bg-primary/90 group w-fit">
-                    View Project
+                    View Live Project
                     <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={16} />
                   </Button>
                 </a>
