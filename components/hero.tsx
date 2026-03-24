@@ -35,7 +35,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1, duration: 0.6 }}
         >
-          <span className="text-sm uppercase tracking-widest text-indigo-400 font-semibold">
+          <span className="text-xs sm:text-sm uppercase tracking-[0.2em] sm:tracking-widest text-indigo-400 font-semibold">
             Takoradi · Ghana · West Africa
           </span>
         </motion.div>
@@ -82,14 +82,17 @@ export function Hero() {
         </motion.div>
 
         {/* Trust Indicators */}
-        <motion.p
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.6 }}
-          className="text-sm text-zinc-500 mb-12 leading-relaxed"
+          className="mb-12 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-sm text-zinc-500 leading-relaxed"
         >
-          ✓ Based in Takoradi  ✓ 8+ Projects Delivered  ✓ Clear Communication  ✓ On-Time Delivery
-        </motion.p>
+          <span>✓ Based in Takoradi</span>
+          <span>✓ 8+ Projects Delivered</span>
+          <span>✓ Clear Communication</span>
+          <span>✓ On-Time Delivery</span>
+        </motion.div>
 
         <Marquee />
       </motion.div>
